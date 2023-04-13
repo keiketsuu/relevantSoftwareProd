@@ -1,17 +1,17 @@
-- app/
-  - src/
-    - main/
-      - java/
-        - com.example.myapp/ (or any other package name you have chosen)
-          - MainActivity.java (this is the main entry point for your app)
-      - res/
-        - drawable/ (for storing images and other drawable resources)
-        - layout/ (for storing XML layout files that define your app's UI)
-        - mipmap/ (for storing app launcher icons)
-        - values/ (for storing XML resource files, such as strings and colors)
-        - AndroidManifest.xml (this file contains important metadata about your app, such as its package name, version, and required permissions)
-      - assets/ (for storing raw asset files that your app needs to access, such as database files or font files)
-      - jniLibs/ (for storing native libraries that your app needs to access)
-      - res/raw/ (for storing raw resource files that your app needs to access, such as audio or video files)
-      - Android.mk (this file is used for building native libraries)
-      - proguard-rules.pro (this file is used for specifying ProGuard rules for code obfuscation)
+- app/                          // The main directory for your app's code and resources
+  - src/                        // The directory containing your app's source code
+    - main/                     // The main source directory for your app
+      - java/                   // The directory containing your Java code
+        - com.example.myapp/    // Your app's package name, as specified in the AndroidManifest.xml file
+          - MainActivity.java  // Your app's main activity, which is launched when the app starts
+      - res/                    // The directory containing your app's resources
+        - drawable/             // The directory for images and other drawable resources
+        - layout/               // The directory for XML layout files that define your app's UI
+        - mipmap/               // The directory for app launcher icons
+        - values/               // The directory for XML resource files, such as strings and colors
+        - AndroidManifest.xml   // The file containing metadata about your app, such as its package name and version
+      - assets/                 // The directory for raw asset files that your app needs to access, such as database files or font files
+      - jniLibs/                // The directory for native libraries that your app needs to access
+      - res/raw/               // The directory for raw resource files that your app needs to access, such as audio or video files
+      - Android.mk              // The file used for building native libraries
+      - proguard-rules.pro      // The file used for specifying ProGuard rules for code obfuscation
