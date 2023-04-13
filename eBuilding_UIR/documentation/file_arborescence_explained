@@ -1,1 +1,17 @@
-![alt text](eBuilding_UIR/assets/arbAS.jpg)
+- app/
+  - src/
+    - main/
+      - java/
+        - com.example.myapp/ (or any other package name you have chosen)
+          - MainActivity.java (this is the main entry point for your app)
+      - res/
+        - drawable/ (for storing images and other drawable resources)
+        - layout/ (for storing XML layout files that define your app's UI)
+        - mipmap/ (for storing app launcher icons)
+        - values/ (for storing XML resource files, such as strings and colors)
+        - AndroidManifest.xml (this file contains important metadata about your app, such as its package name, version, and required permissions)
+      - assets/ (for storing raw asset files that your app needs to access, such as database files or font files)
+      - jniLibs/ (for storing native libraries that your app needs to access)
+      - res/raw/ (for storing raw resource files that your app needs to access, such as audio or video files)
+      - Android.mk (this file is used for building native libraries)
+      - proguard-rules.pro (this file is used for specifying ProGuard rules for code obfuscation)
