@@ -1,3 +1,3 @@
 # relevevantSoftwareProd
 
-Central github repo where all collaborators can submit their contribution. 
+Central github repo where all collaborators can submit their contributions. 
